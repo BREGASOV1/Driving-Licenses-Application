@@ -1,0 +1,54 @@
+## Ignore Visual Studio generated files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vscode/
+
+## Build outputs
+bin/
+obj/
+Debug/
+Release/
+[Bb]uild/
+[Ll]og/
+
+## NuGet
+*.nupkg
+*.snupkg
+*.nuget
+packages/
+*.sln.ide/
+.nuget/
+
+## Auto-generated database files
+*.ldf
+DVLD.mdf
+DVLD_Template_log.ldf
+
+## IMPORTANT: Do NOT ignore the template db inside Database/
+!Database/DVLD_Template.mdf
+
+## VS Backup
+*.bak
+
+## Rider / ReSharper
+.idea/
+*.DotSettings.user
+
+## Publish folder
+publish/
+
+## Others
+*.cache
+*.dbmdl
+*.pdb
+*.tlog
+*.vs/
+.vs/
+
+## Ignore SQL runtime instances
+*log
+*.mdf
+*.ldf
+!Database/DVLD_Template.mdf
